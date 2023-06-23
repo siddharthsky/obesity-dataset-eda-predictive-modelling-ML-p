@@ -22,17 +22,28 @@ This repository contains code for Exploratory Data Analysis and building predict
 Dataset
 -------
 
-The dataset contains information about various physical measurements of participants. The columns in the dataset are:
+The dataset contains information about various measurements of participants. The columns in the dataset are:
 
-*   Weight: Weight of the participant (lbs)
-*   Height: Height of the participant (inches)
-*   Age: Age of the participant (years)
-*   Gender: Gender of the participant (Male/Female)
-*   BMI: BMI of the participant (calculated from weight and height)
-*   Abdomen Circumference: Abdominal circumference of the participant (inches)
-*   Glucose: Glucose level of blood (mg/dl)
-*   BloodPressure: Blood pressure level (mm hg)
-*   SkinThickness: Skin thickness (mm)
-*   Insulin: Insulin level of blood (mu U/ml)
-*   Diabetes: Has diabetes (0/1)
-*   Obesity: Is obese (0/1, target variable)
+**Attributes related with eating habits are:**
+
+- Frequent consumption of high caloric food (FAVC),
+- Frequency of consumption of vegetables (FCVC),
+- Number of main meals (NCP),
+- Consumption of food between meals (CAEC),
+- Consumption of water daily (CH20),
+- and Consumption of alcohol (CALC).
+
+**Attributes related with the physical condition are:**
+
+- Calories consumption monitoring (SCC),
+- Physical activity frequency (FAF),
+- Time using technology devices (TUE),
+- Transportation used (MTRANS),
+
+**Other variables were:**
+
+- Gender, Age, Height and Weight.
+
+
+
+
